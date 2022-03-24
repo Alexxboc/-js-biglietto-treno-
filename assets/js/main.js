@@ -52,7 +52,7 @@
        
 // Comunica il prezzo finale
     
-    console.log(`Il prezzo del tuo biglietto è di ${arrotonda_prezzo_finale}`)
+    console.log(`Il prezzo del tuo biglietto è di ${arrotonda_prezzo_finale} €`)
 
     
 
