@@ -35,15 +35,15 @@
 
 // Calcoloare prezzo finale 
 
+    var prezzo_finale = prezzo_per_km;
+
     if (age < 18) {
-        var prezzo_finale = prezzo_per_km - (prezzo_per_km * sconto_under);
+         prezzo_finale = prezzo_per_km - (prezzo_per_km * sconto_under);
         
     } else if (age >= 65) {
-        var prezzo_finale = prezzo_per_km - (prezzo_per_km * sconto_over);
+         prezzo_finale = prezzo_per_km - (prezzo_per_km * sconto_over);
         
-    } else {
-        var prezzo_finale = prezzo_per_km;
-    }
+    } 
 
 // Arrotonda il prezzo finale con due cifre decimali
     
