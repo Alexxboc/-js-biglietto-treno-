@@ -42,21 +42,19 @@
         
     } else if (age >= 65) {
          prezzo_finale = prezzo_per_km - (prezzo_per_km * sconto_over);
-        
     } 
 
-// Arrotonda il prezzo finale con due cifre decimali
+    // Comunica il prezzo finale
     
-   var arrotonda_prezzo_finale = prezzo_finale.toFixed(2);
+    console.log(`Il prezzo del tuo biglietto è di ${prezzo_finale.toFixed(2)} €`)
 
-       
-// Comunica il prezzo finale
+    document.getElementById(`prezzo_finale`).innerHTML = `Il prezzo del tuo biglietto è di ${prezzo_finale.toFixed(2)} €`
+
+
+
     
-    console.log(`Il prezzo del tuo biglietto è di ${arrotonda_prezzo_finale} €`)
 
-    
 
-// Calcolare sconto per over 65
 
-// Comunicare prezzo finale in forma umana
+
 
